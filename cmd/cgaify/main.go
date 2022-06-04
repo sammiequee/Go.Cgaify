@@ -103,7 +103,6 @@ func process(fname string, gmode *mode) {
 	err = png.Encode(
 		outfile,
 		outimg,
-		&png.Options{len(gmode.colors), nil, nil})
 	outfile.Close()
 	if err != nil {
 		disperr(fname, err)
