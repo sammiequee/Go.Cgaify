@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"image"
 	"image/draw"
-	"image/gif"
+	_ "image/gif"
 	_ "image/jpeg"
-	_ "image/png"
+	"image/png"
 	"os"
 	"path/filepath"
 	"strings"
@@ -93,17 +93,17 @@ func process(fname string, gmode *mode) {
 
 	// STEP THREE: Output the new image...
 	outfile, err := os.OpenFile(
-		filepath.Base(fname)+"_"+*gmd+".gif",
+		filepath.Base(fname)+"_"+*gmd+".png",
 		os.O_WRONLY|os.O_CREATE|os.O_TRUNC,
 		0666)
 	if err != nil {
 		disperr(fname, err)
 		return
 	}
-	err = gif.Encode(
+	err = png.Encode(
 		outfile,
 		outimg,
-		&gif.Options{len(gmode.colors), nil, nil})
+		&png.Options{len(gmode.colors), nil, nil})
 	outfile.Close()
 	if err != nil {
 		disperr(fname, err)
