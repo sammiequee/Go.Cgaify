@@ -100,13 +100,13 @@ var modes = map[string]*mode{
 		200,
 		vgacolors,
 	},
-	"CLAY": {
-		"CGA 320x200 Palette 1, but with more saturation",
+	"FLAY": {
+		"CGA 320x200 Palette 1, but with orange <3",
 		320,
 		200,
 		color.Palette{
 			color.RGBA{0x00, 0x00, 0x00, 0xff},
-			color.RGBA{0x00, 0xFF, 0xFF, 0xff},
+			color.RGBA{0x00, 0x5A, 0x00, 0xff},
 			color.RGBA{0xFF, 0x00, 0xFF, 0xff},
 			color.RGBA{0xFF, 0xFF, 0xFF, 0xff},
 		},
