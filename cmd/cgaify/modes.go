@@ -123,7 +123,7 @@ var modes = map[string]*mode{
 		},
 	},
 	"ZANE": {
-		"Indigo Purple Magenta Pink LightBlue",
+		"Indigo Purple Magenta Pink LightBlue White",
 		320,
 		200,
 		color.Palette{
@@ -133,6 +133,7 @@ var modes = map[string]*mode{
 			color.RGBA{0xFF, 0x00, 0xFF, 0xff},
 			color.RGBA{0xFF, 0x80, 0xFF, 0xff},
 			color.RGBA{0xBB, 0xDD, 0xFF, 0xff},
+			color.RGBA{0xFF, 0xFF, 0xFF, 0xff},
 		},
 	},
 	"MAGENTA": {
