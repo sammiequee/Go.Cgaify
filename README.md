@@ -28,7 +28,7 @@ The supported modes are:
   * EGA 320x200 16-color default palette
   * EGA 640x350 16-color default palette
   * VGA 320x200 256-color default palette
-  * oh and another one called CLAY that is the same as CGA Palette 1 but completely saturated and looks different i think
+  * Bonus modes: CLAY, FLAY, ZANE, MAGENTA, TRANS, LESBIAN
 
 When reducing the size, the aspect ratio is preserved.
 
@@ -39,7 +39,7 @@ square pixels of today.
 
 ## Get 
 
-    go install github.com/Mr-HHH/Go.Cgaify/cmd/cgaify@latest
+    go install github.com/sammiequee/Go.Cgaify/cmd/cgaify@latest
 
 Giving `-h` will give usage information.
 
