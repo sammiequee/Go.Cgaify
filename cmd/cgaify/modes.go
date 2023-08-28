@@ -199,7 +199,7 @@ var modes = map[string]*mode{
 			color.RGBA{0xFF, 0xFF, 0xFF, 0xff},
 		},
 	},
-	"BWB": {
+	"RBW": {
 		"Red Blue White",
 		320,
 		200,
