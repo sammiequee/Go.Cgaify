@@ -199,6 +199,16 @@ var modes = map[string]*mode{
 			color.RGBA{0xFF, 0xFF, 0xFF, 0xff},
 		},
 	},
+	"BWB": {
+		"Red Blue White",
+		320,
+		200,
+		color.Palette{
+			color.RGBA{0xFF, 0x00, 0x00, 0xff},
+			color.RGBA{0x00, 0x00, 0xFF, 0xff},
+			color.RGBA{0xFF, 0xFF, 0xFF, 0xff},
+		},
+	},
 	"8088": {
 		"16-color palette used for 8088+CGA, 160x200",
 		160,
