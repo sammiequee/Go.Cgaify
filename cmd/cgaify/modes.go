@@ -136,6 +136,17 @@ var modes = map[string]*mode{
 			color.RGBA{0xFF, 0xFF, 0xFF, 0xff},
 		},
 	},
+	"UMBRA": {
+		"Black DarkGrey Magenta White",
+		320,
+		200,
+		color.Palette{
+			color.RGBA{0x00, 0x00, 0x00, 0xff},
+			color.RGBA{0x35, 0x35, 0x35, 0xff},
+			color.RGBA{0xCC, 0x00, 0xFB, 0xff},
+			color.RGBA{0xFF, 0xFF, 0xFF, 0xff},
+		},
+	},
 	"MAGENTA": {
 		"Purple Magenta Pink",
 		320,
